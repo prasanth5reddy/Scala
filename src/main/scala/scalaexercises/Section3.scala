@@ -17,7 +17,7 @@ object Section3 extends App {
     if (isGoodEnough(guess, x)) guess
     else sqrtIter(improve(guess, x), x)
 
-  def sqrt(x: Double): Double = sqrtIter(1, 2)
+  def sqrt(x: Double): Double = sqrtIter(1, x)
 
   def factorial(n: Int): Int =
     if (n == 1 || n == 0) 1
