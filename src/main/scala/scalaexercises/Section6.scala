@@ -1,7 +1,5 @@
 package scalaexercises
 
-import scala.concurrent.duration.Duration
-
 // Structuring information
 object Section6 extends App {
 
